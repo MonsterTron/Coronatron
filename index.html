@@ -145,7 +145,7 @@
 <div class="panel-info">
 <h3>Organization</h3>
 <div>
-<div class="panel-info-item"><span>Invitation link</span><a class="btn" v-if="tron.account" :href="location.origin + '#ref=' + tron.account" target="_blank" @click.prevent="copyText('https://trx-unlimited.io/#ref=' + tron.account)">Copy</a><span class="ether-value" v-if="!tron.account">---</span></div>
+<div class="panel-info-item"><span>Invitation link</span><a class="btn" v-if="tron.account" :href="location.origin + '#ref=' + tron.account" target="_blank" @click.prevent="copyText('https://coronatron.xyz/#ref=' + tron.account)">Copy</a><span class="ether-value" v-if="!tron.account">---</span></div>
 <div class="panel-info-item"><span>Personal invited partners</span><span class="ether-value" v-text="safe(user.referrals)"></span></div>
 <div class="panel-info-item"><span>Total number of partners</span><span class="ether-value" v-text="safe(user.total_structure)"></span></div>
 <div class="panel-info-item"><span>Total community participants</span><span class="ether-value" v-text="safe(contract.total_users)">?</span></div>
